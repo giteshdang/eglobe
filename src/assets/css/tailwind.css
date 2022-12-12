@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './fonts/roboto.css';
+@import './fonts/tahoma.css';
+@import './fonts/inter.css';
+@import './header-web.css';

@@ -1,0 +1,72 @@
+:root {
+    --body--bg--color-yellow: #f4ecb3;
+    --text-eglobe-green: #087468;
+    --text-eglobe-orange: #f29122;
+    --text-eglobe-red-bg: rgb(164, 18, 63);
+}
+
+
+html body {
+    background-color: var(--body--bg--color-yellow);
+    overflow-x: hidden;
+    color: var(--text-eglobe-green);
+}
+
+html body.services--page{
+    background-color: var(--text-eglobe-green);
+    color: var(--body--bg--color-yellow);
+}
+
+header {
+    background-color: var(--body--bg--color-yellow);
+}
+
+html body.services--page header{
+    background-color: var(--text-eglobe-green);
+    color: var(--body--bg--color-yellow);
+}
+
+.text-eglobe-green {
+    color: var(--text-eglobe-green);
+}
+
+.text-eglobe-orange {
+    color: var(--text-eglobe-orange);
+}
+
+.text-eglobe-yellow{
+    color: var(--body--bg--color-yellow);
+}
+
+.bg-eglobe-green{
+    background-color: var(--text-eglobe-green);
+}
+
+.bg-eglobe-orange{
+    background-color: var(--text-eglobe-orange);
+}
+
+.services--page header .site--nav a div{
+    color: var(--body--bg--color-yellow);
+}
+
+.services--page header .site--nav a div{
+    color: var(--body--bg--color-yellow);
+}
+
+.services--page header .site--nav a div.text-eglobe-orange{
+    color: var(--text-eglobe-orange);
+}
+
+header .yellow--logo{
+    display: none;
+}
+
+.services--page header .site--logo{
+    display: none;
+}
+
+.services--page header .yellow--logo{
+    display: block;
+    max-width: 8.5rem;
+}

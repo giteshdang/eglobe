@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Tahoma-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Tahoma-Regular"), local("Tahoma-Regular"),
+      url("../../fonts/Tahoma/Tahoma-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+  }
+
+  @font-face {
+    font-family: "Tahoma-Bold";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Tahoma-Bold"), local("Tahoma-Bold"),
+      url("../../fonts/Tahoma/Tahoma-Bold.TTF") format("truetype"); /* Safari, Android, iOS */
+  }
+
+.tahoma-bold {
+    font-family: 'Tahoma-Bold';
+}

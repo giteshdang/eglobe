@@ -1,0 +1,10 @@
+export { default as HeaderWeb } from './header/header-web'
+export { default as Home } from '../pages/Home'
+export { default as Portofolio } from '../pages/Portofolio'
+export { default as ProfesionalStaff } from '../pages/Profesional-Staf'
+export { default as Service } from '../pages/Service'
+export { default as OurClient } from '../pages/OurClient'
+export { default as Article } from '../pages/home/Article'
+export { default as Subscribe } from '../pages/Subscribe'
+export { default as Footer } from '../pages/Footer'
+
