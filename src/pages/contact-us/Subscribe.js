@@ -5,14 +5,14 @@ import phoneyellow from "../../assets/svg/icons/phoneyellow.svg"
 
 const Subscribe = (props)=>{
     return (
-        <div className="w-screen md:h-screen relative px-8 md:px-0 md:py-0 flex items-center justify-center  overflow-hidden">
+        <div className="w-screen md:h-screen relative px-8 md:px-0 md:py-0 flex items-center justify-center overflow-hidden contact--subscribe--section">
             
             <div className="md:grid-cols-5 items-center my-16 md:my-0  h-auto grid-cols-1 grid gap-16">
                 <div className="flex col-span-1 md:col-span-2 md:pl-24 items-start space-y-2 flex-col ">
                     <img src={OutlineDashStaff} alt="" data-aos='fade-right' data-aos-duration='3000'/>
-                    <h1 className="tahoma-bold text-4xl" data-aos='fade-right' data-aos-duration='3000'>
+                    <h1 className="tahoma-bold text-4xl text-eglobe-green" data-aos='fade-right' data-aos-duration='3000'>
                     Get in  {" "}
-                        <span className="text-eglobe-red">Touch</span>
+                        <span className="text-eglobe-orange">Touch</span>
                     </h1>
                     <div className="inter-regular text-base" data-aos='fade-right' data-aos-duration='3000'>We’d love to discuss how our services can help your business thrive!</div>
                     <div className="flex flex-col space-y-4 w-full">
@@ -39,15 +39,15 @@ const Subscribe = (props)=>{
                     <br />
                     <div className="flex justify-center  items-center w-full" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">
-                    <button className="py-3 px-8 rounded-md bg-eglobe-red text-white inter-regular text-sm">
+                    <button className="py-3 px-8 rounded-md bg-eglobe-green text-white inter-regular text-sm">
                         Send
                     </button>
                     </div>
                 </div>
                 <div className="relative col-span-1 h-full flex items-center justify-end md:col-span-3">
-                    <div className="absolute top-0 bg-eglobe-yellow w-64 right-0 h-full"></div>
-                    <div className=" z-20 py-4 md:max-w-lg pl-4 border-dashed border-l border-y border-eglobe-red " data-aos='fade-left' data-aos-duration='3000'>
-                        <div className="px-8 flex flex-col gap-4 md:px-12 py-12 md:py-24 bg-eglobe-red">
+                    <div className="absolute top-0 bg-eglobe-orange w-64 right-0 h-full"></div>
+                    <div className=" z-20 py-4 md:max-w-lg pl-4 border-dashed border-l border-y border-eglobe-green " data-aos='fade-left' data-aos-duration='3000'>
+                        <div className="px-8 flex flex-col gap-4 md:px-12 py-12 md:py-24 bg-eglobe-green">
                             <div className="flex inter-regular text-white flex-row gap-2 items-start justify-start">
                                 <div>
                                     <img src={buildingsyellow} 

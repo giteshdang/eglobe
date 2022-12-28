@@ -1,4 +1,8 @@
-  .Marquee {
+.serv--client--section{
+  background-color: var(--body--bg--color-yellow);
+}
+
+.Marquee {
     width: 100%;
     box-sizing: border-box;
     padding: 1em;
@@ -71,3 +75,14 @@
     }
   }
   
+  
+  .client--logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    img{
+      width: 10.65rem;
+    }
+  }

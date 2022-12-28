@@ -1,4 +1,4 @@
-import {CircleDashPinkSvg, CirclePinkSvg, CircleRedSvg, NewServiceImg} from '../../assets/svg'
+import {CircleDashYellowSvg, CircleYellowSvg, CircleRedSvg, NewServiceImg} from '../../assets/svg'
 import { fadeInRight, fadeInLeft } from 'react-animations';
 import { StyleSheet, css } from 'aphrodite';
 import serviceImg from "../../assets/png/service.png"
@@ -32,19 +32,19 @@ const Home = (props) =>{
     },[circle])
     
     useEffect(() => {
-      document.body.classList.remove("services--page")
+      document.body.classList.add("services--page")
     }, [])
     return(
       <div className="hero min-h-screen overflow-hidden">
       
       <img
         className="absolute top-420 md:top-24  left-40"
-        src={CirclePinkSvg}
+        src={CircleYellowSvg}
         alt=""
       />
       <img
         className="absolute img-dash top-420 md:top-24  left-0"
-        src={CircleDashPinkSvg}
+        src={CircleDashYellowSvg}
         alt=""
       />
        <div className=" flex-col hero-content lg:flex-row-reverse ">
@@ -55,8 +55,8 @@ const Home = (props) =>{
         </div>
         
       <div className={`${css(styles.fadeInLeft)} flex-1  md:mt-0`}>
-        <h1 className="tahoma-bold text-6xl text-eglobe-red">
-        Contact <span className='text-black'>Us</span>
+        <h1 className="tahoma-bold text-6xl text-eglobe-orange">
+        Contact <span className='text--eglobe-yellow'>Us</span>
         </h1>
         <p className="inter-regular mb-5 mt-4 text-lg w-full">
         E-globe is primed to become your one-stop solution provider. We will aid you in your journey to achieve your business objectives through our top-notch services and exceptional customers support. Don’t hesitate to reach out to us!

@@ -14,7 +14,7 @@
   	right: 0; 
 	border-radius: 50%;
   	font-weight: bold;
-	color:  var(--text-eglobe-green);
+	color:  var(--body--bg--color-yellow);
 	animation: spinZ 20s linear infinite;
 	text-align: center;
     position: relative;
@@ -40,6 +40,10 @@
 			transform: rotateZ(0deg);
 		}
 	}
+}
+
+.contact--subscribe--section {
+	background-color: var(--body--bg--color-yellow);
 }
 
 .img-service {

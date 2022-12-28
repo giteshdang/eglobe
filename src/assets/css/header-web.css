@@ -34,7 +34,7 @@ html body.services--page header{
     color: var(--text-eglobe-orange);
 }
 
-.text-eglobe-yellow{
+.text--eglobe-yellow{
     color: var(--body--bg--color-yellow);
 }
 
@@ -44,6 +44,10 @@ html body.services--page header{
 
 .bg-eglobe-orange{
     background-color: var(--text-eglobe-orange);
+}
+
+.border-eglobe-green{
+    border-color: var(--text-eglobe-green);
 }
 
 .services--page header .site--nav a div{

@@ -173,7 +173,7 @@ const Home = (props) => {
           </div>
           <div className="hero-img relative">
             <img src={HeroImgSvg} alt="" />
-            <div className="hero-glass-img absolute inset-0" style={{backgroundImage: `url(${GlassWithPersonSvg})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: '20rem'}}>
+            <div className="hero-glass-img absolute inset-0" style={{backgroundImage: `url(${GlassSvg})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: '20rem'}}>
               {/* <img src={PersonSvg} alt="" className="absolute w-16" /> */}
             </div>
           </div>

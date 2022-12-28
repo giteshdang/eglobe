@@ -4,11 +4,11 @@ import { BackgroundServiceSvg } from "../../assets/svg"
 const Footer = (props) =>{
     return (
         <div style={{
-            backgroundImage: `url(${BackgroundServiceSvg})`,
+            // backgroundImage: `url(${BackgroundServiceSvg})`,
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
             backgroundSize:'cover',
-            backgroundColor: '#A4123F',
+            backgroundColor: '#087468',
         }} className="text-eglobe-orange flex flex-col">
             <div className="div-curve w-screen"></div>
             <div className="px-8 md:px-24 mt-8 py-8  flex flex-col space-y-16">

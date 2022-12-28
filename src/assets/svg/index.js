@@ -55,3 +55,23 @@ export { default as GlobelSvg } from './globel.svg'
 export { default as NewAboutImg } from './about.svg'
 export { default as NewServiceImg } from './services.svg'
 
+//New Logos
+export { default as Anpers } from './logos/Logo_Anpers.svg'
+export { default as AuJardin } from './logos/Logo_Au_Jardin.svg'
+export { default as Beekaboo } from './logos/Logo_Beekaboo.svg'
+export { default as Agsl } from './logos/Logo_AGSL.svg'
+export { default as Cilicon } from './logos/Logo_Cilicon.svg'
+export { default as Fresh } from './logos/Logo_Fresh.svg'
+export { default as Godiva } from './logos/Logo_Godiva.svg'
+export { default as Lerivage } from './logos/Logo_Le_rivage.svg'
+export { default as PapaShark } from './logos/Logo_Papa_Shark.svg'
+export { default as Respack } from './logos/Logo_Respack.svg'
+
+// New Icons
+export { default as V12D3DAnimation } from './service--icons/v1_2D-3D-Design-Animation.svg'
+export { default as V1ClientServiceRealTimeInterpretation } from './service--icons/v1__Client-Service-Real-Time-Interpretation.svg'
+export { default as V1BrandingDesign } from './service--icons/v1__Branding-Design.svg'
+export { default as V1WritingTranslation } from './service--icons/v1__Writing-Translation.svg'
+export { default as V1TalentAcquisitinTraining } from './service--icons/v1__Talent-Acquisitin-Training.svg'
+export { default as V1ProfessionalDevelopmentBusinessTransformation } from './service--icons/v1__Professional-Development-Business-Transformation.svg'
+
