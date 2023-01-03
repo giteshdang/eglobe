@@ -1,8 +1,11 @@
 :root {
     --body--bg--color-yellow: #f4ecb3;
+    --body--eglobe-yellow-color: #f1eb9d;
     --text-eglobe-green: #087468;
     --text-eglobe-orange: #f29122;
     --text-eglobe-red-bg: rgb(164, 18, 63);
+    --text-eglobe-light-orange: #f3c095;
+    --text-eglobe-light-bg: #f9f8e5;
 }
 
 
@@ -14,7 +17,12 @@ html body {
 
 html body.services--page{
     background-color: var(--text-eglobe-green);
-    color: var(--body--bg--color-yellow);
+    color: var(--body--eglobe-yellow-color);
+}
+
+html body.career--page{
+    background-color: var(--text-eglobe-light-bg);
+    color: var(--text-eglobe-orange);
 }
 
 header {
@@ -23,7 +31,12 @@ header {
 
 html body.services--page header{
     background-color: var(--text-eglobe-green);
-    color: var(--body--bg--color-yellow);
+    color: var(--body--eglobe-yellow-color);
+}
+
+html body.career--page header{
+    background-color: var(--text-eglobe-light-bg);
+    color: var(--body--eglobe-yellow-color);
 }
 
 .text-eglobe-green {
@@ -35,7 +48,7 @@ html body.services--page header{
 }
 
 .text--eglobe-yellow{
-    color: var(--body--bg--color-yellow);
+    color: var(--body--eglobe-yellow-color);
 }
 
 .bg-eglobe-green{
@@ -51,11 +64,11 @@ html body.services--page header{
 }
 
 .services--page header .site--nav a div{
-    color: var(--body--bg--color-yellow);
+    color: var(--body--eglobe-yellow-color);
 }
 
 .services--page header .site--nav a div{
-    color: var(--body--bg--color-yellow);
+    color: var(--body--eglobe-yellow-color);
 }
 
 .services--page header .site--nav a div.text-eglobe-orange{

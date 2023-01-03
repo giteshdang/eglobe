@@ -36,9 +36,7 @@ const Home = (props) => {
   useEffect(() => {
     circle();
   }, [circle]);
-  useEffect(() => {
-    document.body.classList.remove("services--page")
-  }, [])
+  
   return (
     <div className="hero min-h-screen overflow-hidden">
       <img

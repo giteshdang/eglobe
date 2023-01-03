@@ -31,9 +31,6 @@ const Home = (props) =>{
       circle()
     },[circle])
     
-    useEffect(() => {
-      document.body.classList.add("services--page")
-    }, [])
     return(
       <div className="hero min-h-screen overflow-hidden">
       

@@ -14,7 +14,7 @@
   	right: 0; 
 	border-radius: 50%;
   	font-weight: bold;
-	color:  var(--body--bg--color-yellow);
+	color:  var(--body--eglobe-yellow-color);
 	animation: spinZ 20s linear infinite;
 	text-align: center;
     position: relative;
@@ -70,3 +70,11 @@
     from{ transform: rotate(-360deg); }
     to{ transform: rotate(360deg); }
 }
+
+.branding--section{
+	color: #000;
+	background: var(--text-eglobe-light-orange);
+	h3{
+		color: var(--text-eglobe-green);
+	}
+} 

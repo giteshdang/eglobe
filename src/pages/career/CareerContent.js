@@ -122,7 +122,7 @@ const CareerContent = (props) => {
             <img src={ComingSoonSvg} className="md:w-1/2 xl:w-1/3" alt="" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" />
-            <p className='mt-8 font-bold text-4xl text-eglobe-red' data-aos='fade-up' data-aos-duration='3000'>We're Launching Soon!</p>
+            <p className='mt-8 font-bold text-4xl text-eglobe-green' data-aos='fade-up' data-aos-duration='3000'>We're Launching Soon!</p>
             <p data-aos='fade-up' data-aos-duration='3000'>Our Website is under construction. We'll be here soon with our new awesome site</p>
         </div>
   );

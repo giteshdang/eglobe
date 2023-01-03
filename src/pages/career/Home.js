@@ -1,4 +1,4 @@
-import {CircleDashPinkSvg, CirclePinkSvg, CircleRedSvg, NewAboutImg} from '../../assets/svg'
+import {CircleDashGreenSvg, CircleGreenSvg, CircleRedSvg, NewAboutImg} from '../../assets/svg'
 import { fadeInRight, fadeInLeft } from 'react-animations';
 import { StyleSheet, css } from 'aphrodite';
 import serviceImg from "../../assets/png/service.png"
@@ -31,20 +31,17 @@ const Home = (props) =>{
       circle()
     },[circle])
     
-    useEffect(() => {
-      document.body.classList.remove("services--page")
-    }, [])
     return(
       <div className="hero min-h-screen overflow-hidden">
       
       <img
         className="absolute top-420 md:top-24  left-40"
-        src={CirclePinkSvg}
+        src={CircleGreenSvg}
         alt=""
       />
       <img
         className="absolute img-dash top-420 md:top-24  left-0"
-        src={CircleDashPinkSvg}
+        src={CircleDashGreenSvg}
         alt=""
       />
        <div className=" flex-col hero-content lg:flex-row-reverse">
@@ -55,14 +52,14 @@ const Home = (props) =>{
         </div>
         
       <div className={`${css(styles.fadeInLeft)}  flex-1 md:mt-0`}>
-        <h1 className="tahoma-bold text-5xl text-black">
+        <h1 className="tahoma-bold text-5xl text-eglobe-orange">
         Find Your Dream Job in <br/>
-        <span className='text-eglobe-yellow'>E-Globe</span> !
+        <span className='text-eglobe-green'>E-Globe</span> !
         </h1>
         <p className="inter-regular mb-5 mt-4 text-lg">
         We found our purposes through the impact we make on others. You, too, can find yours.
         </p>
-        <button className="py-3 px-8 rounded-md bg-eglobe-red text-white inter-regular text-sm">
+        <button className="py-3 px-8 rounded-md bg-eglobe-green text-white inter-regular text-sm">
         Find Out
       </button>
     </div>

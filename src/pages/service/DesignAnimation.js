@@ -2,7 +2,7 @@ import serviceImg from "../../assets/png/service2.png"
 import ballSvg from '../../assets/svg/icons/ball.svg'
 const DesignAnimation = (props) =>{
     return (
-        <div className="bg-red-100 flex-col flex md:flex-row-reverse md:h-auto w-screen md:px-24 px-8 pb-8 pt-8 md:pb-24 gap-4">
+        <div className="branding--section bg-red-100 flex-col flex md:flex-row-reverse md:h-auto w-screen md:px-24 px-8 pb-8 pt-8 md:pb-24 gap-4">
             <div className="flex-1 flex items-center justify-center">
                 <img src={serviceImg} alt="" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"

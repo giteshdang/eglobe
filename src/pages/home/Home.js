@@ -122,10 +122,6 @@ const Home = (props) => {
       );
     });
   }, [elements, InnersRef]);
-    
-  useEffect(() => {
-    document.body.classList.remove("services--page")
-  }, [])
 
   return (
     <div className="hero min-h-screen overflow-hidden relative pb-24">
