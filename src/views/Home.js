@@ -11,6 +11,7 @@ const HomeViews = (props)=>{
   useEffect(() => {
       document.body.classList.remove("services--page")
       document.body.classList.remove("career--page")
+      document.body.classList.remove("blog--page")
     }, [])
       return(
         <>

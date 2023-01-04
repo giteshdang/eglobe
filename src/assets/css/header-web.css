@@ -6,6 +6,9 @@
     --text-eglobe-red-bg: rgb(164, 18, 63);
     --text-eglobe-light-orange: #f3c095;
     --text-eglobe-light-bg: #f9f8e5;
+    --eglobe--light--purple: #d1bde5;
+    --eglobe--dark--purple: #7f669d;
+    --text--eglobe--purple: #675089;
 }
 
 
@@ -25,6 +28,10 @@ html body.career--page{
     color: var(--text-eglobe-orange);
 }
 
+html body.blog--page .blog--top--banner{
+    background-color: var(--text-eglobe-light-bg);
+}
+
 header {
     background-color: var(--body--bg--color-yellow);
 }
@@ -37,6 +44,10 @@ html body.services--page header{
 html body.career--page header{
     background-color: var(--text-eglobe-light-bg);
     color: var(--body--eglobe-yellow-color);
+}
+
+html body.blog--page header{
+    background-color: transparent;
 }
 
 .text-eglobe-green {
@@ -73,6 +84,14 @@ html body.career--page header{
 
 .services--page header .site--nav a div.text-eglobe-orange{
     color: var(--text-eglobe-orange);
+}
+
+.blog--page header .site--nav a div{
+    color: var(--text-eglobe-light-bg);
+}
+
+.blog--page header .site--nav a div.text-eglobe-orange{
+    color: var(--text-eglobe-green);
 }
 
 header .yellow--logo{

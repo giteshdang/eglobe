@@ -7,11 +7,12 @@ const Blog = (props) =>{
     useEffect(() => {
         document.body.classList.remove("services--page")
         document.body.classList.remove("career--page")
+        document.body.classList.add("blog--page")
       }, [])
     return (
-        <div className="mt-16 h-auto w-screen overflow-hidden">
+        <div className="h-auto w-screen overflow-hidden">
             <Home/>
-            <ContentBlog/>
+            {/* <ContentBlog/> */}
         </div>
     )
 }
