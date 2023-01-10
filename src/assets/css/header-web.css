@@ -1,5 +1,6 @@
 :root {
-    --body--bg--color-yellow: #f4ecb3;
+    /* --body--bg--color-yellow: #f4ecb3; */
+    --body--bg--color-yellow: #fff6bf;
     --body--eglobe-yellow-color: #f1eb9d;
     --text-eglobe-green: #087468;
     --text-eglobe-orange: #f29122;
@@ -9,8 +10,13 @@
     --eglobe--light--purple: #d1bde5;
     --eglobe--dark--purple: #7f669d;
     --text--eglobe--purple: #675089;
+    --form--input--color: rgb(241 235 157 / 75%);
+    --form--input--text--color: rgb(8 116 104 / 75%)
 }
 
+.bg-form-input{
+    background-color: var(--form--input--color);
+}
 
 html body {
     background-color: var(--body--bg--color-yellow);
@@ -46,7 +52,8 @@ html body.career--page header{
     color: var(--body--eglobe-yellow-color);
 }
 
-html body.blog--page header{
+html body.blog--page header,
+html body.hauoli--page header{
     background-color: transparent;
 }
 
@@ -90,7 +97,8 @@ html body.blog--page header{
     color: var(--text-eglobe-light-bg);
 }
 
-.blog--page header .site--nav a div.text-eglobe-orange{
+.blog--page header .site--nav a div.text-eglobe-orange,
+.blog--page header .site--nav p div.text-eglobe-orange{
     color: var(--text-eglobe-green);
 }
 
@@ -105,4 +113,38 @@ header .yellow--logo{
 .services--page header .yellow--logo{
     display: block;
     max-width: 8.5rem;
+}
+
+body input::placeholder, body textarea::placeholder{
+    color: var(--form--input--text--color);
+}
+
+.drop--menu--list {
+    position: absolute;
+    background: #086745;
+    min-width: 8rem;
+    margin-top: 1rem;
+    box-shadow: 0rem 0.1rem 0.75rem rgb(0 0 0 / 75%);
+}
+
+.drop--menu--list a div {
+    padding: 0.75rem 1rem;
+    display: block;
+    color: var(--text-eglobe-light-bg);
+}
+
+.drop--menu--list:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-bottom: 0.5rem solid #086745;
+    top: -0.5rem;
+    left: 0.5rem;
+}
+
+.drop--menu--list a:not(:last-child) div {
+    border-bottom: 0.0625rem solid #fff;
 }

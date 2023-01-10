@@ -80,3 +80,26 @@
   .controlsTime {
     color: white;
   }
+
+  .port--btn {
+    display: none;
+  }
+
+  .home--page .port--btn {
+    display: inline-block;
+    margin: 5rem auto 0;
+  }
+
+  a.port--btn--link {
+      background: var(--text-eglobe-orange);
+      color: #FFF6BF;
+      padding: 1rem;
+      line-height: 1;
+      text-decoration: none;
+      font-weight: 700;
+  }
+
+  .home--page .portofolio--description,
+  .home--page .portfolio--second--section{
+    display: none;
+  }

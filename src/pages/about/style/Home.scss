@@ -42,10 +42,20 @@
 	}
 }
 
+
+.section--title{
+	color: var(--body--eglobe-yellow-color);
+}
 .steps .step-orange:after,
 .steps .step-warning.step-orange + .step-warning.step-orange:before{
-  background-color: var(--text-eglobe-orange);
+  background-color: var(--body--eglobe-yellow-color);
+  color: var(--text-eglobe-green);
+  font-weight: 700;
 }
+.company--lists li{
+	color: var(--text-eglobe-orange);
+}
+
 .img-service {
     position: absolute;
 	left: 0; 

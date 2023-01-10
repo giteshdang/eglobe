@@ -60,8 +60,8 @@
 .img-dash {
 	animation-name: rotate;
 	animation-duration: 25s;
-	margin-left: -150px;
-	margin-top: 50px;
+	margin-left: -11rem;
+  bottom: 1rem;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
@@ -84,7 +84,7 @@ $offset: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  // height: 100vh;
 //   background: $bg;
 }
 .wrapper {
@@ -210,4 +210,113 @@ $offset: 30px;
   .md\:bottom-20{
     bottom: 20rem;
   }
+}
+
+.portfolio--first--section {
+  padding-top: 10rem;
+  padding-bottom: 20rem;
+  position: relative;
+  width: 100%;
+}
+
+.home--page .portfolio--first--section {
+  padding-top: 5rem;
+  padding-bottom: 18rem;
+}
+
+.home--page .portfolio--section{
+  margin-top: 5rem;
+  // margin-bottom: -5rem;
+}
+
+.port--img-1, .port--img-2, .port--img-3 {
+  position: absolute;
+  max-width: 20rem;
+}
+.port--img-4 {
+  position: absolute;
+  max-width: 30rem;
+}
+
+.port--img-1, .port--img-3 {
+  top: 0;
+  left: 0;
+}
+.port--img-2 {
+  bottom: 0;
+  right: 1.25rem;
+}
+.port--img-4{
+  bottom: 0;
+  left: 0;
+}
+
+.portfolio--logo--image{
+  max-width: 60rem;
+}
+.portofolio--description{
+  margin: 6rem 0 0;
+  max-width: 40rem;
+  p{
+    font-size: 1.25rem;
+    span{
+      font-style: italic;
+      font-weight: 600;
+    }
+  }
+}
+
+.portfolio--second--section {
+  width: 100%;
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.client--comments--list {
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18rem;
+}
+
+.client--comment {
+  padding: 3rem;
+  background: #ABD9FF;
+  color: #FFF6BF;
+  flex-basis: 24rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 30rem;
+  width: 100%;
+  &:nth-child(odd){
+    border-radius: 20% 0;
+  }
+  &:nth-child(even){
+    border-radius: 0 20%;
+  }
+  .client--logo p{
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: italic;
+  }
+  .client--comment--text p{
+    font-size: 1.5rem;
+  }
+}
+
+.port--foot-1, .port--foot-2 {
+  position: absolute;
+  max-width: 16rem;
+}
+.port--foot-1{
+  right: 0;
+  top: 15rem;
+}
+.port--foot-2{
+  top: 37rem;
+  right: -6rem;
 }

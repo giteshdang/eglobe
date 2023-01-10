@@ -66,7 +66,7 @@ const ProfesionalStaff = (props)=>{
                     <img src={OutlineDashStaff} alt="" data-aos='fade-left' data-aos-duration='3000'/>
                     <h1 className="tahoma-bold text-4xl" data-aos='fade-left' data-aos-duration='3000'>
                         Our professional staff in Every Country will help in your {" "}
-                        <span className="text-eglobe-yellow">Business</span>
+                        <span className="text-eglobe-orange">Business</span>
                     </h1>
                     <div className="inter-regular text-base" data-aos='fade-left' data-aos-duration='3000'>E-globe is aware that the core of a business is its people. When it comes to managing people, diversity exists to widen a company’s horizons of thought. With that being said, E-globe is determined to source people from multiple cultural backgrounds across the globe. We have a team full of motivated individuals from the United States, Malaysia, Vietnam, Indonesia, Australia, Europe, and many other countries. We always encourage our team members to express their ideas without being confined by prejudice. E-globe truly embraces and actualizes unity in diversity through a diverse organizational structure.</div>
                     <div className="grid grid-cols-1 md:grid-cols-2  my-4  gap-8">
@@ -75,7 +75,7 @@ const ProfesionalStaff = (props)=>{
                                 <img src={GroupPeople} alt="" />
                             </div>
                             <div className="flex-grow space-y-1 flex-col flex">
-                                <div className="inter-bold text-eglobe-yellow text-base">Profesional Team</div>
+                                <div className="inter-bold text-eglobe-orange text-base">Profesional Team</div>
                                 <div className="inter-regular">Team members from multiple countries and continents.</div>
                             </div>
                         </div>
@@ -84,7 +84,7 @@ const ProfesionalStaff = (props)=>{
                                 <img src={CreativeSvg} alt="" />
                             </div>
                             <div className="flex-grow space-y-1 flex-col flex" data-aos='fade-left' data-aos-duration='3000'>
-                                <div className="inter-bold text-eglobe-yellow text-base">Creative and Innovation</div>
+                                <div className="inter-bold text-eglobe-orange text-base">Creative and Innovation</div>
                                 <div className="inter-regular">Ideation based on consensual brainstorming.</div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ const ProfesionalStaff = (props)=>{
                     <br />
                     <br />
                     <div className="mt-24" data-aos='fade-left' data-aos-duration='3000'>
-                    <button onClick={sendMail} className="py-3 px-8 rounded-md bg-eglobe-red text-white inter-regular text-sm">
+                    <button onClick={sendMail} className="py-3 px-8 rounded-md bg-eglobe-green text-white inter-regular text-sm">
                         Start a New Project Together
                     </button>
                     </div>

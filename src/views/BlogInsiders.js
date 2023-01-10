@@ -1,9 +1,8 @@
 
 import { useEffect } from "react";
-import ContentBlog from "../pages/blog/ContentBlog";
-import Home from "../pages/blog/Home";
+import BusinessInsiders from "../pages/blog/BusinessInsiders";
 
-const Blog = (props) =>{
+const Business = (props) =>{
     useEffect(() => {
         document.body.classList.remove("services--page")
         document.body.classList.remove("career--page")
@@ -14,9 +13,8 @@ const Blog = (props) =>{
       }, [])
     return (
         <div className="h-auto w-screen overflow-hidden">
-            <Home/>
-            {/* <ContentBlog/> */}
+            <BusinessInsiders />
         </div>
     )
 }
-export default Blog;
+export default Business;

@@ -1,10 +1,11 @@
 import serviceImg from "../../assets/png/service2.png"
+import TranslateNew from '../../assets/image/instruct_translate.png'
 import ballSvg from '../../assets/svg/icons/ball.svg'
 const WritingTranslation = (props) =>{
     return (
         <div className="branding--section bg-red-100 grid grid-cols-1 md:grid-cols-2 gap-4 md:h-auto w-screen md:px-24 px-8 pt-8 pb-8 md:pt-24 ">
             <div className="col-span-1 flex items-center justify-center">
-                <img src={serviceImg} alt="" data-aos="flip-left"
+                <img src={TranslateNew} alt="" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"/>
             </div>

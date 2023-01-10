@@ -36,6 +36,8 @@ const HeaderWeb = (props) => {
     setIsActive("contactus");
   };
 
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <div className={`top-0 overflow-hidden left-0 right-0 z-50 fixed`}>
       <header
@@ -55,8 +57,10 @@ const HeaderWeb = (props) => {
                 to={`${config.basename}${"/"}`}
               >
                 <div
-                  className={`cursor-pointer hover:text-eglobe-orange  ${
-                    isActive === "home" ? "text-eglobe-orange" : "text-eglobe-green"
+                  className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap  ${
+                    isActive === "home"
+                      ? "text-eglobe-orange"
+                      : "text-eglobe-green"
                   }`}
                   onClick={() => handleClickHome()}
                 >
@@ -68,8 +72,10 @@ const HeaderWeb = (props) => {
                 to={`${config.basename}${"/services"}`}
               >
                 <div
-                  className={`cursor-pointer hover:text-eglobe-orange  ${
-                    isActive === "service" ? "text-eglobe-orange" : "text-eglobe-green"
+                  className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap ${
+                    isActive === "service"
+                      ? "text-eglobe-orange"
+                      : "text-eglobe-green"
                   }`}
                   onClick={() => handleClickService()}
                 >
@@ -81,34 +87,65 @@ const HeaderWeb = (props) => {
                 to={`${config.basename}${"/about"}`}
               >
                 <div
-                  className={`cursor-pointer hover:text-eglobe-orange  ${
-                    isActive === "about" ? "text-eglobe-orange" : "text-eglobe-green"
+                  className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap ${
+                    isActive === "about"
+                      ? "text-eglobe-orange"
+                      : "text-eglobe-green"
                   }`}
                   onClick={() => handleClickAboutUs()}
                 >
                   About Us
                 </div>
               </Link>
-              <Link
-                style={{ textDecoration: "none" }}
-                to={`${config.basename}${"/blog"}`}
+              <p
+                style={{ textDecoration: "none", marginBottom: "0" }}
+                onClick={() => setShowMenu(!showMenu)}
               >
                 <div
-                  className={`cursor-pointer hover:text-eglobe-orange  ${
-                    isActive === "blog" ? "text-eglobe-orange" : "text-eglobe-green"
+                  className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap ${
+                    isActive === "blog"
+                      ? "text-eglobe-orange"
+                      : "text-eglobe-green"
                   }`}
-                  onClick={() => handleClickBlog()}
                 >
                   Blog
                 </div>
-              </Link>
+                {showMenu && (
+                  <div className="drop--menu--list">
+                    <Link
+                      style={{ textDecoration: "none" }}
+                      to={`${config.basename}${"/blog-we-care"}`}
+                    >
+                      <div
+                        className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap`}
+                        onClick={() => handleClickBlog()}
+                      >
+                        We Care
+                      </div>
+                    </Link>
+                    <Link
+                      style={{ textDecoration: "none" }}
+                      to={`${config.basename}${"/blog-business-insiders"}`}
+                    >
+                      <div
+                        className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap`}
+                        onClick={() => handleClickBlog()}
+                      >
+                        Business Insiders
+                      </div>
+                    </Link>
+                  </div>
+                )}
+              </p>
               <Link
                 style={{ textDecoration: "none" }}
                 to={`${config.basename}${"/career"}`}
               >
                 <div
-                  className={`cursor-pointer hover:text-eglobe-orange  ${
-                    isActive === "career" ? "text-eglobe-orange" : "text-eglobe-green"
+                  className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap ${
+                    isActive === "career"
+                      ? "text-eglobe-orange"
+                      : "text-eglobe-green"
                   }`}
                   onClick={() => handleClickCareer()}
                 >
@@ -120,8 +157,10 @@ const HeaderWeb = (props) => {
                 to={`${config.basename}${"/contact-us"}`}
               >
                 <div
-                  className={`cursor-pointer hover:text-eglobe-orange  ${
-                    isActive === "contactus" ? "text-eglobe-orange" : "text-eglobe-green"
+                  className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap ${
+                    isActive === "contactus"
+                      ? "text-eglobe-orange"
+                      : "text-eglobe-green"
                   }`}
                   onClick={() => handleClickContactUs()}
                 >
