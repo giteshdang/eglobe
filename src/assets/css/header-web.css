@@ -81,11 +81,8 @@ html body.hauoli--page header{
     border-color: var(--text-eglobe-green);
 }
 
-.services--page header .site--nav a div{
-    color: var(--body--eglobe-yellow-color);
-}
-
-.services--page header .site--nav a div{
+.services--page header .site--nav a div,
+.services--page header .site--nav p div{
     color: var(--body--eglobe-yellow-color);
 }
 
@@ -121,9 +118,10 @@ body input::placeholder, body textarea::placeholder{
 
 .drop--menu--list {
     position: absolute;
-    background: #086745;
+    background: var(--text-eglobe-green);
     min-width: 8rem;
     margin-top: 1rem;
+    border-radius: 0.5rem;
     box-shadow: 0rem 0.1rem 0.75rem rgb(0 0 0 / 75%);
 }
 
@@ -140,11 +138,23 @@ body input::placeholder, body textarea::placeholder{
     height: 0;
     border-left: 0.5rem solid transparent;
     border-right: 0.5rem solid transparent;
-    border-bottom: 0.5rem solid #086745;
+    border-bottom: 0.5rem solid var(--text-eglobe-green);
     top: -0.5rem;
     left: 0.5rem;
 }
-
 .drop--menu--list a:not(:last-child) div {
-    border-bottom: 0.0625rem solid #fff;
+    border-bottom: 0.0625rem solid var(--text-eglobe-light-bg);
+}
+
+.services--page .drop--menu--list{
+    background-color: var(--text-eglobe-light-bg);
+}
+.services--page p .drop--menu--list a > div{
+    color: var(--text-eglobe-green);
+}
+.services--page .drop--menu--list:before{
+    border-bottom-color: var(--text-eglobe-light-bg);
+}
+.services--page .drop--menu--list a:not(:last-child) div {
+    border-bottom: 0.0625rem solid var(--text-eglobe-green);
 }
