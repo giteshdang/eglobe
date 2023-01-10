@@ -27,24 +27,24 @@ const Footer = (props) => {
               src={YellowLogoSvg}
               className="w-40"
               alt=""
-              data-aos="fade-up"
-              data-aos-anchor-placement="bottom-bottom"
-              data-aos-duration="3000"
+              // data-aos="fade-up"
+              // data-aos-anchor-placement="bottom-bottom"
+              // data-aos-duration="3000"
             />
             <div
               className="inter-regular text-eglobe-orange text-sm"
-              data-aos="fade-up"
-              data-aos-anchor-placement="bottom-bottom"
-              data-aos-duration="3000"
+              // data-aos="fade-up"
+              // data-aos-anchor-placement="bottom-bottom"
+              // data-aos-duration="3000"
             >
               Unit 2403, Tung Wai Commercial Building, 109-111 Gloucester Road,
               Wanchai, Hong Kong
             </div>
             <div
               className="flex flex-row space-x-4 inter-regular text-white text-sm"
-              data-aos="fade-up"
-              data-aos-anchor-placement="bottom-bottom"
-              data-aos-duration="3000"
+              // data-aos="fade-up"
+              // data-aos-anchor-placement="bottom-bottom"
+              // data-aos-duration="3000"
             >
               <div>
                 <img src={PhoneSvg} alt="" />
@@ -53,9 +53,9 @@ const Footer = (props) => {
             </div>
             <div
               className="flex flex-row space-x-4 inter-regular text-white text-sm"
-              data-aos="fade-up"
-              data-aos-anchor-placement="bottom-bottom"
-              data-aos-duration="3000"
+              // data-aos="fade-up"
+              // data-aos-anchor-placement="bottom-bottom"
+              // data-aos-duration="3000"
             >
               <div>
                 <img src={EmailWhiteSvg} alt="" />
@@ -67,9 +67,9 @@ const Footer = (props) => {
             <div className="flex flex-col space-y-6">
               <div
                 className="flex items-start"
-                data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom"
-                data-aos-duration="3000"
+                // data-aos="fade-up"
+                // data-aos-anchor-placement="bottom-bottom"
+                // data-aos-duration="3000"
               >
                 <div className="inter-bold text-lg text-eglobe-orange">
                   Uselink
@@ -78,41 +78,41 @@ const Footer = (props) => {
               <div className="inter-regular text-sm flex flex-col space-y-2 items-start">
                 <div
                   className="cursor-pointer hover:font-bold"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="bottom-bottom"
-                  data-aos-duration="3000"
+                  // data-aos="fade-up"
+                  // data-aos-anchor-placement="bottom-bottom"
+                  // data-aos-duration="3000"
                 >
                   Service
                 </div>
                 <div
                   className="cursor-pointer hover:font-bold"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="bottom-bottom"
-                  data-aos-duration="3000"
+                  // data-aos="fade-up"
+                  // data-aos-anchor-placement="bottom-bottom"
+                  // data-aos-duration="3000"
                 >
                   About Us
                 </div>
                 <div
                   className="cursor-pointer hover:font-bold"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="bottom-bottom"
-                  data-aos-duration="3000"
+                  // data-aos="fade-up"
+                  // data-aos-anchor-placement="bottom-bottom"
+                  // data-aos-duration="3000"
                 >
                   Blog
                 </div>
                 <div
                   className="cursor-pointer hover:font-bold"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="bottom-bottom"
-                  data-aos-duration="3000"
+                  // data-aos="fade-up"
+                  // data-aos-anchor-placement="bottom-bottom"
+                  // data-aos-duration="3000"
                 >
                   Career
                 </div>
                 <div
                   className="cursor-pointer hover:font-bold"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="bottom-bottom"
-                  data-aos-duration="3000"
+                  // data-aos="fade-up"
+                  // data-aos-anchor-placement="bottom-bottom"
+                  // data-aos-duration="3000"
                 >
                   Contact Us
                 </div>
@@ -122,17 +122,17 @@ const Footer = (props) => {
           <div className="flex flex-col space-y-2 md:mt-4">
             <div
               className="inter-bold text-lg text-eglobe-orange"
-              data-aos="fade-up"
-              data-aos-anchor-placement="bottom-bottom"
-              data-aos-duration="3000"
+              // data-aos="fade-up"
+              // data-aos-anchor-placement="bottom-bottom"
+              // data-aos-duration="3000"
             >
               Newsletter
             </div>
             <div
               className="flex mt-4 flex-row px-2 border py-1 rounded-md border-white bg-form-input"
-              data-aos="fade-up"
-              data-aos-anchor-placement="bottom-bottom"
-              data-aos-duration="3000"
+              // data-aos="fade-up"
+              // data-aos-anchor-placement="bottom-bottom"
+              // data-aos-duration="3000"
             >
               <input
                 placeholder="Enter your email address"
@@ -146,9 +146,9 @@ const Footer = (props) => {
               <input type="checkbox" />
               <div
                 className="text-white inter-regular text-sm"
-                data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom"
-                data-aos-duration="3000"
+                // data-aos="fade-up"
+                // data-aos-anchor-placement="bottom-bottom"
+                // data-aos-duration="3000"
               >
                 I have read and agree the privacy police
               </div>
@@ -158,9 +158,9 @@ const Footer = (props) => {
         <div>
           <div
             className="flex flex-row space-x-4 inter-regular text-white text-sm"
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="3000"
+            // data-aos="fade-up"
+            // data-aos-anchor-placement="bottom-bottom"
+            // data-aos-duration="3000"
           >
             © 2018 - 2021 by E-Globe Consulting Limited.
           </div>

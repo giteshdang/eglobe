@@ -20,14 +20,14 @@ const Portofolio = (props) => {
   const [isStyle, setStyle] = useState(false);
   const { scrollPosition, offsetTop } = props;
 
-  // useEffect(() => {
-  //   console.log(isStyle === false && scrollPosition === offsetTop);
-  //   if (scrollPosition <= offsetTop) {
-  //     document
-  //       .getElementById("title-portofolio")
-  //       .classList.add(css(styles.fadeInDown));
-  //   }
-  // }, [isStyle]);
+  useEffect(() => {
+    console.log(isStyle === false && scrollPosition === offsetTop);
+    if (scrollPosition <= offsetTop) {
+      document
+        .getElementById("title-portofolio")
+        .classList.add(css(styles.fadeInDown));
+    }
+  }, [isStyle]);
 
   return (
     <div className="md:h-auto items-center flex flex-col w-screen portfolio--section">

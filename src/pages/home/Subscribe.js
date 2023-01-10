@@ -11,7 +11,7 @@ const Subscribe = (props)=>{
                             <div className="absolute img-dash right-2 bottom-2">
                             <img className="w-40 h-40 md:w-72 md:h-72" src={CircleDashOrangeSvg} alt="" />
                         </div>
-                         <div className=" md:mb-28 mb-12 mt-8 md:mt-28   h-full w-full  flex items-center" data-aos="slide-right" data-aos-duration="3000">
+                         <div className=" md:mb-28 mb-12 mt-8 md:mt-28   h-full w-full  flex items-center">
                          <img
                             src="https://img.freepik.com/free-photo/financial-broker-explaning-business-data-his-client_8087-2667.jpg?size=626&ext=jpg"
                             className="z-10 object-cover"
@@ -21,13 +21,13 @@ const Subscribe = (props)=>{
                          
                     </div>
                 <div className="flex col-span-1 md:pl-24 items-start space-y-2 flex-col ">
-                    <img src={OutlineDashStaff} alt="" data-aos="fade-right" data-aos-duration="3000"/>
-                    <h1 className="tahoma-bold text-4xl  text-eglobe-green" data-aos="fade-left" data-aos-duration="3000">
+                    <img src={OutlineDashStaff} alt="" />
+                    <h1 className="tahoma-bold text-4xl  text-eglobe-green">
                     Contact  {" "}
                         <span className="text-eglobe-orange">Us</span>
                     </h1>
-                    <div className="inter-regular text-base" data-aos="fade-left" data-aos-duration="3000">We’d love to discuss how our services can help your business thrive!</div>
-                    <div className="flex flex-col space-y-4 w-full" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+                    <div className="inter-regular text-base">We’d love to discuss how our services can help your business thrive!</div>
+                    <div className="flex flex-col space-y-4 w-full">
                     <div className="flex mt-4 flex-row pl-4 pr-2 border py-2  rounded-md border-white bg-form-input">
                             <input placeholder="Name" className="bg-opacity-0 outline-none flex-grow bg-yellow-400" />
                             <button className="px-2"><img src={UserSvg} alt="" /></button>
@@ -43,8 +43,7 @@ const Subscribe = (props)=>{
                     </div>
                     <br />
                     <br />
-                    <div className="flex justify-center items-center w-full" data-aos="fade-up"
-     data-aos-duration="3000">
+                    <div className="flex justify-center items-center w-full">
                     <button className="py-3 px-8 rounded-md bg-eglobe-green text-white inter-regular text-sm">
                         Send
                     </button>

@@ -73,13 +73,13 @@ const Service = (props) => {
                 src={OutlineDashStaff}
                 className="w-40 h-6 object-fill"
                 alt=""
-                data-aos="fade-right"
-                data-aos-duration="3000"
+                // data-aos="fade-right"
+                // data-aos-duration="3000"
               />
               <h1
                 className="tahoma-bold text-4xl text-white"
-                data-aos="fade-right"
-                data-aos-duration="3000"
+                // data-aos="fade-right"
+                // data-aos-duration="3000"
               >
                 <span className="text-eglobe-orange">Business</span> Services
                 that lead the way to better business

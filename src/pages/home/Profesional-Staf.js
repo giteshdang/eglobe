@@ -63,14 +63,14 @@ const ProfesionalStaff = (props)=>{
                     />
                 </div>
                 <div className="flex h-auto items-start space-y-2 flex-col ">
-                    <img src={OutlineDashStaff} alt="" data-aos='fade-left' data-aos-duration='3000'/>
-                    <h1 className="tahoma-bold text-4xl text-eglobe-green"  data-aos='fade-left' data-aos-duration='3000'>
+                    <img src={OutlineDashStaff} alt="" />
+                    <h1 className="tahoma-bold text-4xl text-eglobe-green"  >
                         Our professional staff in Every Country will help in your {" "}
                         <span className="text-eglobe-orange">Business</span>
                     </h1>
-                    <div className="inter-regular text-base"  data-aos='fade-left' data-aos-duration='3000'>E-globe is aware that the core of a business is its people. When it comes to managing people, diversity exists to widen a company’s horizons of thought. With that being said, E-globe is determined to source people from multiple cultural backgrounds across the globe. We have a team full of motivated individuals from the United States, Malaysia, Vietnam, Indonesia, Australia, Europe, and many other countries. We always encourage our team members to express their ideas without being confined by prejudice. E-globe truly embraces and actualizes unity in diversity through a diverse organizational structure.</div>
+                    <div className="inter-regular text-base"  >E-globe is aware that the core of a business is its people. When it comes to managing people, diversity exists to widen a company’s horizons of thought. With that being said, E-globe is determined to source people from multiple cultural backgrounds across the globe. We have a team full of motivated individuals from the United States, Malaysia, Vietnam, Indonesia, Australia, Europe, and many other countries. We always encourage our team members to express their ideas without being confined by prejudice. E-globe truly embraces and actualizes unity in diversity through a diverse organizational structure.</div>
                     <div className="grid grid-cols-1 md:grid-cols-2  my-4  gap-8">
-                        <div className="flex flex-row space-x-4"  data-aos='fade-left' data-aos-duration='3000'>
+                        <div className="flex flex-row space-x-4"  >
                             <div className="flex-none flex items-center justify-center">
                                 <img src={GroupPeople} alt="" />
                             </div>
@@ -79,7 +79,7 @@ const ProfesionalStaff = (props)=>{
                                 <div className="inter-regular">Team members from multiple countries and continents.</div>
                             </div>
                         </div>
-                        <div className="flex flex-row space-x-4"  data-aos='fade-left' data-aos-duration='3000'>
+                        <div className="flex flex-row space-x-4"  >
                             <div className="flex-none flex items-center justify-center">
                                 <img src={CreativeSvg} alt="" />
                             </div>
@@ -89,10 +89,10 @@ const ProfesionalStaff = (props)=>{
                             </div>
                         </div>
                     </div>
-                    <div className="inter-regular text-base"  data-aos='fade-left' data-aos-duration='3000'>Our responsibility is to educate and share the best of our expertise to stimulate our client’s business growth. The best talents across the globe gather in E-globe only to help SMEs expand their market share or even transform their businesses whenever necessary.</div>
+                    <div className="inter-regular text-base"  >Our responsibility is to educate and share the best of our expertise to stimulate our client’s business growth. The best talents across the globe gather in E-globe only to help SMEs expand their market share or even transform their businesses whenever necessary.</div>
                     <br />
                     <br />
-                    <div className="mt-24"  data-aos='fade-left' data-aos-duration='3000'>
+                    <div className="mt-24"  >
                     <button onClick={sendMail} className="py-3 px-8 rounded-md bg-eglobe-green text-white inter-regular text-sm">
                         Start a New Project Together
                     </button>

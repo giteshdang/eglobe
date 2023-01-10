@@ -55,21 +55,21 @@ const OurClient = (props) => {
             src={OutlineDashPortofolio}
             className="ml-2"
             alt=""
-            data-aos="fade-up"
-            data-aos-duration="3000"
+            // data-aos="fade-up"
+            // data-aos-duration="3000"
           />
           <h1
             className="tahoma-bold text-5xl text-eglobe-green"
-            data-aos="fade-up"
-            data-aos-duration="3000"
+            // data-aos="fade-up"
+            // data-aos-duration="3000"
           >
             Our <span className="text-eglobe-orange">Client</span>
           </h1>
         </div>
         <div
           className="inter-regular text-base font-normal"
-          data-aos="fade-up"
-          data-aos-duration="3000"
+          // data-aos="fade-up"
+          // data-aos-duration="3000"
         >
           See how we’ve helped ambitious clients achieve extraordinary outcomes
         </div>
