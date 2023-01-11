@@ -49,7 +49,7 @@ const Portofolio = (props) => {
           </div> */}
           <img src={HauoliLogo} alt="Hauoli Logo" />
           <div className="port--btn">
-            <Link 
+            <Link
               className="port--btn--link"
               to={`${config.basename}${"/hau-oli-page"}`}
             >
@@ -81,20 +81,44 @@ const Portofolio = (props) => {
           <div className="port--foot-2">
             <img src={PortFoot} alt="" />
           </div>
-          <div className="client--comment ml-auto">
-            <div className="client--logo">
-              <p>Client logo</p>
-            </div>
-            <div className="client--comment--text">
-              <p>Inset client's comment</p>
+          <div className="client--comment flip-box ml-auto">
+            <div className="client--comment--body flip-box-inner">
+              <div className="client--comment--front flip-box-front">
+                <div className="client--logo">
+                  <p>Client logo</p>
+                </div>
+                <div className="client--comment--text">
+                  <p>Inset client's comment</p>
+                </div>
+              </div>
+              <div className="client--comment--back flip-box-back">
+                <div className="client--logo">
+                  <p>Client logo Back</p>
+                </div>
+                <div className="client--comment--text">
+                  <p>Inset client's comment back</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="client--comment mr-auto">
-            <div className="client--logo">
-              <p>Client logo</p>
-            </div>
-            <div className="client--comment--text">
-              <p>Inset client's comment</p>
+          <div className="client--comment flip-box mr-auto">
+            <div className="client--comment--body flip-box-inner">
+              <div className="client--comment--front flip-box-front">
+                <div className="client--logo">
+                  <p>Client logo</p>
+                </div>
+                <div className="client--comment--text">
+                  <p>Inset client's comment</p>
+                </div>
+              </div>
+              <div className="client--comment--back flip-box-back">
+                <div className="client--logo">
+                  <p>Client logo Back</p>
+                </div>
+                <div className="client--comment--text">
+                  <p>Inset client's comment back</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

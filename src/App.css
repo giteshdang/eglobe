@@ -21,3 +21,8 @@
   src: local("Roboto-Bold"), local("Roboto-Bold"),
     url("./assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype"); /* Safari, Android, iOS */
 }
+
+.apptest{
+  cursor: url(./assets/image/globe-cursor.gif), auto;
+  /* cursor: url(https://free-images.com/sm/ce0f/globe_svg.jpg), auto; */
+}

@@ -85,6 +85,12 @@
     to{ transform: rotate(360deg); }
 }
 
+
+.scene-container{
+	border-radius: 100%;
+	overflow: hidden;
+  }
+
 // $total-elements: 7; // msut be an odd number
 // $middle-no: ceil($total-elements / 2);
 // $tilt: 15deg;
