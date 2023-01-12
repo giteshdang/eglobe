@@ -3,7 +3,7 @@ import BrandNew from '../../assets/image/instruct_brand.png'
 import ballSvg from '../../assets/svg/icons/ball.svg'
 const BrandingDesign = (props) =>{
     return (
-        <div className="branding--section bg-red-100 flex-col flex md:flex-row-reverse md:h-auto w-screen md:px-24 px-8 py-8 gap-4">
+        <div className="branding--section branding--section--style-1 flex-col flex md:flex-row-reverse md:h-auto w-screen md:px-24 px-8 py-8 gap-4">
             <div className="flex-1 flex items-center justify-center">
                 <img src={BrandNew} alt="" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
