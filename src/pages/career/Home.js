@@ -32,7 +32,7 @@ const Home = (props) =>{
     },[circle])
     
     return(
-      <div className="hero min-h-screen overflow-hidden">
+      <div className="hero min-h-screen overflow-hidden relative">
       
       <img
         className="absolute top-420 md:top-24  left-40"

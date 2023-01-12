@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import CareerContent from "../pages/career/CareerContent";
+import Dream from "../pages/career/Dream";
 import Home from "../pages/career/Home";
 
 const Career = (props) =>{
@@ -13,6 +14,7 @@ const Career = (props) =>{
       }, [])
     return (
         <div className="mt-16 h-auto w-screen overflow-hidden">
+            <Dream />
             <Home/>
             <CareerContent/>
         </div>

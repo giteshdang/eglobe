@@ -70,3 +70,109 @@
     from{ transform: rotate(-360deg); }
     to{ transform: rotate(360deg); }
 }
+
+.dream--section--blocks{
+	max-width: 80rem;
+	margin: 0 auto;
+}
+.dream--section--block{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dream--section--blocks {
+    max-width: 63rem;
+    margin: 3rem auto;
+}
+
+.dream--section--block {
+    width: 100%;
+}
+
+.dream--section--block--content {
+    width: 100%;
+    padding: 2rem;
+}
+
+.dream--section--block--content ul{
+	list-style-type: decimal;
+	li{
+		padding-left: 2rem;
+	}
+}
+
+.bg--eglobe--light{
+	background-color: #F7DEC2;
+	color: #000;
+}
+
+.dream--section--block--content h3{
+	font-weight: 700;
+	font-size: 2.5rem;
+	line-height: normal;
+	text-transform: uppercase;
+} 
+
+.dream--section--block--content p {
+    margin: 1.5rem 0;
+    font-size: 1.25rem;
+}
+
+.join--btn {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.join--btn a {
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    background: #001A45;
+    padding: 0.5rem 1.5rem;
+    display: block;
+    min-width: 10rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.dreem--section--image.dream--section--block--content {
+    padding: 0;
+    max-width: 20rem;
+}
+
+.long--height--block {
+    height: 100%;
+	max-height: 59%;
+}
+
+.bg--eglobe--light--green{
+    background: #C6DFB6;
+    color: #000;
+}
+
+.bg--eglobe--light--blue{
+	background: #B4C8E5;
+    color: #000;
+}
+
+.long--height--block img {
+    height: 100%;
+    width: auto;
+}
+
+.dream--section--block--two--row,
+.dream--section--block--content {
+    height: 100%;
+}
+
+li {
+    padding-left: 2rem;
+}
+
+.short--height--block {
+    height: 100%;
+    max-height: calc(100% - 59% - 1.5rem);
+}
