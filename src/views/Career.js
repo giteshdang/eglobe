@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import CareerContent from "../pages/career/CareerContent";
 import Dream from "../pages/career/Dream";
 import Home from "../pages/career/Home";
+import Internship from "../pages/career/Internship";
 
 const Career = (props) =>{
     useEffect(() => {
@@ -15,8 +16,9 @@ const Career = (props) =>{
     return (
         <div className="mt-16 h-auto w-screen overflow-hidden">
             <Dream />
-            <Home/>
-            <CareerContent/>
+            <Internship />
+            {/* <Home/> */}
+            {/* <CareerContent/> */}
         </div>
     )
 }

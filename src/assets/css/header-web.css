@@ -14,6 +14,8 @@
     --form--input--text--color: rgb(8 116 104 / 75%)
 }
 
+
+
 .bg-form-input{
     background-color: var(--form--input--color);
 }
@@ -67,6 +69,10 @@ html body.hauoli--page header{
 
 .text--eglobe-yellow{
     color: var(--body--eglobe-yellow-color);
+}
+
+.text--eglobe-yellow-light{
+    color: var(--text-eglobe-light-bg);
 }
 
 .bg-eglobe-green{

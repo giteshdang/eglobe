@@ -82,11 +82,16 @@
 
 .dream--section--blocks {
     max-width: 63rem;
-    margin: 3rem auto;
+    margin: 3rem auto 1.5rem;
+	+ .dream--section--blocks{
+		margin-top: 1.5rem;
+	}
 }
 
 .dream--section--block {
     width: 100%;
+	margin: 0;
+	min-height: 15rem;
 }
 
 .dream--section--block--content {
