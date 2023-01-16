@@ -100,6 +100,10 @@ html body.hauoli--page header{
     color: var(--text-eglobe-light-bg);
 }
 
+.text-eglobe-light-bg{
+    background-color: var(--text-eglobe-light-bg);
+}
+
 .blog--page header .site--nav a div.text-eglobe-orange,
 .blog--page header .site--nav p div.text-eglobe-orange{
     color: var(--text-eglobe-green);

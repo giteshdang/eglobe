@@ -63,7 +63,7 @@ const OurClient = (props) => {
             data-aos="fade-up"
             data-aos-duration="3000"
           >
-            Our <span className="text-eglobe-orange">Client</span>
+            Our <span className="text-eglobe-orange">Milestones</span>
           </h1>
         </div>
         <div

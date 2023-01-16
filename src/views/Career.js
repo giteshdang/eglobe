@@ -3,6 +3,7 @@ import CareerContent from "../pages/career/CareerContent";
 import Dream from "../pages/career/Dream";
 import Home from "../pages/career/Home";
 import Internship from "../pages/career/Internship";
+import JoinParty from "../pages/career/JoinParty";
 
 const Career = (props) =>{
     useEffect(() => {
@@ -17,6 +18,7 @@ const Career = (props) =>{
         <div className="mt-16 h-auto w-screen overflow-hidden">
             <Dream />
             <Internship />
+            <JoinParty />
             {/* <Home/> */}
             {/* <CareerContent/> */}
         </div>

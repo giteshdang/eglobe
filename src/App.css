@@ -23,6 +23,5 @@
 }
 
 .apptest{
-  cursor: url(./assets/image/globe-cursor.gif), auto;
-  /* cursor: url(https://free-images.com/sm/ce0f/globe_svg.jpg), auto; */
+  cursor: url(./assets/image/globe-cursor.png), auto;
 }
