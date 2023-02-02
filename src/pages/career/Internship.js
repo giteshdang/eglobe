@@ -7,12 +7,12 @@ const Internship = (props) => {
     <div className="dream--section--blocks">
       <div className="dream--section--block row">
         <div className="col-xs-12 col-md-5">
-          <div className="dream--section--block--content bg-eglobe-green text--eglobe-yellow-light">
+          <div className="dream--section--block--content bg-eglobe-green text--eglobe-yellow-light min-height-320">
             <h3>Internship Collabration</h3>
           </div>
         </div>
         <div className="col-xs-12 col-md-7">
-          <div className="dream--section--block--content bg-eglobe-orange text--eglobe-yellow-light">
+          <div className="dream--section--block--content bg-eglobe-orange text--eglobe-yellow-light min-height-320">
             <h3>Why us?</h3>
           </div>
         </div>

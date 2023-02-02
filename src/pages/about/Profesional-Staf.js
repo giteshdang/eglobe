@@ -47,14 +47,14 @@ const ProfesionalStaff = (props)=>{
                 <Globe
                     ref={globeEl}
                     globeMaterial={globeMaterial}
-                    globeImageUrl={GlobelSvg}
+                    globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
                     bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                     arcsData={arcsData}
                     arcColor={'color'}
-                    width={500}
+                    width={600}
                     waitForGlobeReady={true}
                     showAtmosphere={false}
-                    height={500}
+                    height={600}
                     camera={camera}
                     backgroundColor="#b2cb9e"
                     arcDashLength={() => Math.random()}

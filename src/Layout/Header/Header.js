@@ -51,7 +51,7 @@ const HeaderWeb = (props) => {
             <img src={YellowLogoSvg} className="yellow--logo" alt="" />
           </div>
           <div className="col-span-1 flex justify-end items-center site--nav">
-            <div className="flex roboto-bold flex-row space-x-8">
+            <div className="flex roboto-bold flex-row space-x-8 desktop-menu-list">
               <Link
                 style={{ textDecoration: "none" }}
                 to={`${config.basename}${"/"}`}
@@ -99,7 +99,6 @@ const HeaderWeb = (props) => {
               </Link>
               <p
                 style={{ textDecoration: "none", marginBottom: "0" }}
-                onClick={() => setShowMenu(!showMenu)}
               >
                 <div
                   className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap ${
@@ -110,8 +109,7 @@ const HeaderWeb = (props) => {
                 >
                   Blog
                 </div>
-                {showMenu && (
-                  <div className="drop--menu--list">
+                <div className="drop--menu--list">
                     <Link
                       style={{ textDecoration: "none" }}
                       to={`${config.basename}${"/blog-we-care"}`}
@@ -135,7 +133,6 @@ const HeaderWeb = (props) => {
                       </div>
                     </Link>
                   </div>
-                )}
               </p>
               <Link
                 style={{ textDecoration: "none" }}

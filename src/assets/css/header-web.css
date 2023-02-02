@@ -126,13 +126,24 @@ body input::placeholder, body textarea::placeholder{
     color: var(--form--input--text--color);
 }
 
+.desktop-menu-list a,
+.desktop-menu-list p{
+    padding: 0.5rem 0;
+}
 .drop--menu--list {
+    height: 0;
+    overflow: hidden;
     position: absolute;
     background: var(--text-eglobe-green);
     min-width: 8rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     border-radius: 0.5rem;
+    transition: 0.2s;
     box-shadow: 0rem 0.1rem 0.75rem rgb(0 0 0 / 75%);
+}
+.desktop-menu-list p:hover .drop--menu--list{
+    height: 6.25rem;
+    overflow: visible;
 }
 
 .drop--menu--list a div {

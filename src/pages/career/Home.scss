@@ -81,7 +81,7 @@
 }
 
 .dream--section--blocks {
-    max-width: 63rem;
+    max-width: 96%;
     margin: 3rem auto 1.5rem;
 	+ .dream--section--blocks{
 		margin-top: 1.5rem;
@@ -149,7 +149,7 @@
 
 .dreem--section--image.dream--section--block--content {
     padding: 0;
-    max-width: 20rem;
+    // max-width: 20rem;
 }
 
 .long--height--block {
@@ -169,7 +169,7 @@
 
 .long--height--block img {
     height: 100%;
-    width: auto;
+    width: 100%;
 }
 
 .dream--section--block--two--row,
@@ -177,6 +177,9 @@
     height: 100%;
 }
 
+.min-height-320{
+	min-height: 20rem;
+}
 li {
     padding-left: 2rem;
 }
@@ -187,7 +190,7 @@ li {
 }
 
 .block--img--item{
-	max-width: 25rem;
+	max-width: 50rem;
 	margin: 0 auto 1rem;
 }
 
