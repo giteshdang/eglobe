@@ -57,7 +57,7 @@ const HeaderWeb = (props) => {
                 to={`${config.basename}${"/"}`}
               >
                 <div
-                  className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap  ${
+                  className={`hover:text-eglobe-orange whitespace-nowrap  ${
                     isActive === "home"
                       ? "text-eglobe-orange"
                       : "text-eglobe-green"
@@ -72,7 +72,7 @@ const HeaderWeb = (props) => {
                 to={`${config.basename}${"/services"}`}
               >
                 <div
-                  className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap ${
+                  className={`hover:text-eglobe-orange whitespace-nowrap ${
                     isActive === "service"
                       ? "text-eglobe-orange"
                       : "text-eglobe-green"
@@ -87,7 +87,7 @@ const HeaderWeb = (props) => {
                 to={`${config.basename}${"/about"}`}
               >
                 <div
-                  className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap ${
+                  className={`hover:text-eglobe-orange whitespace-nowrap ${
                     isActive === "about"
                       ? "text-eglobe-orange"
                       : "text-eglobe-green"
@@ -101,7 +101,7 @@ const HeaderWeb = (props) => {
                 style={{ textDecoration: "none", marginBottom: "0" }}
               >
                 <div
-                  className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap ${
+                  className={`hover:text-eglobe-orange whitespace-nowrap ${
                     isActive === "blog"
                       ? "text-eglobe-orange"
                       : "text-eglobe-green"
@@ -115,7 +115,7 @@ const HeaderWeb = (props) => {
                       to={`${config.basename}${"/blog-we-care"}`}
                     >
                       <div
-                        className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap`}
+                        className={`hover:text-eglobe-orange whitespace-nowrap`}
                         onClick={() => handleClickBlog()}
                       >
                         We Care
@@ -126,7 +126,7 @@ const HeaderWeb = (props) => {
                       to={`${config.basename}${"/blog-business-insiders"}`}
                     >
                       <div
-                        className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap`}
+                        className={`hover:text-eglobe-orange whitespace-nowrap`}
                         onClick={() => handleClickBlog()}
                       >
                         Business Insiders
@@ -139,7 +139,7 @@ const HeaderWeb = (props) => {
                 to={`${config.basename}${"/career"}`}
               >
                 <div
-                  className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap ${
+                  className={`hover:text-eglobe-orange whitespace-nowrap ${
                     isActive === "career"
                       ? "text-eglobe-orange"
                       : "text-eglobe-green"
@@ -154,7 +154,7 @@ const HeaderWeb = (props) => {
                 to={`${config.basename}${"/contact-us"}`}
               >
                 <div
-                  className={`cursor-pointer hover:text-eglobe-orange whitespace-nowrap ${
+                  className={`hover:text-eglobe-orange whitespace-nowrap ${
                     isActive === "contactus"
                       ? "text-eglobe-orange"
                       : "text-eglobe-green"

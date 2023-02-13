@@ -22,6 +22,7 @@
     url("./assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype"); /* Safari, Android, iOS */
 }
 
-.apptest{
-  cursor: url(./assets/image/Cursor_Globe1.svg), auto;
+.apptest, a, button{
+  cursor: url(./assets/image/Cursor_Globe1.svg), auto !important;
+  transition: 0.2s;
 }
