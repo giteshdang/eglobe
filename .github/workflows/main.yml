@@ -1,0 +1,18 @@
+name: Deploy to Wix
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Deploy to Wix
+        uses: wix-incubator/wix-deploy-action@v1
+        with:
+          path: ./
+          env: production
+        env:
+          WIX_CREDENTIALS: ${{ secrets.WIX_CREDENTIALS }}
