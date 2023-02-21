@@ -1,18 +1,17 @@
 name: Deploy to Wix
-
 on:
   push:
-    branches: [main]
-
+    branches:
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Deploy to Wix
-        uses: wix-incubator/wix-deploy-action@v1
+        uses: wix-platform/wix-deploy-action@v1.0.4
         with:
-          path: ./
-          env: production
-        env:
-          WIX_CREDENTIALS: ${{ secrets.WIX_CREDENTIALS }}
+          wix-file: 'index.html' # Path to the main HTML file of your site
+          wix-directory: '/' # The root directory of your site
+          wix-target: ${{ secrets.WIX_TARGET }} # The access token you created in your Wix account settings
+          wix-config: './wix.json' # The path to your wix.json file
