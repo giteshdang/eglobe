@@ -1,17 +1,47 @@
-name: Deploy to Wix
+name: cd
 on:
   push:
-    branches:
-      - main
+    branches: [development]
+    
+  workflow_dispatch:
+
 jobs:
-  deploy:
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Deploy to Wix
-        uses: wix-platform/wix-deploy-action@v1.0.4
+      - uses: actions/setup-node@v3
         with:
-          wix-file: 'index.html' # Path to the main HTML file of your site
-          wix-directory: '/' # The root directory of your site
-          wix-target: ${{ secrets.WIX_TARGET }} # The access token you created in your Wix account settings
-          wix-config: './wix.json' # The path to your wix.json file
+          node-version: 16
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn
+      - name: Build dependencies
+        run: yarn build
+      - name: Archive development artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist-folder
+          path: ./dist/
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with: 
+          name: dist-folder
+          path: ./dist/
+      - name: Deploy to e-gconsulting.com
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        with: 
+          server: ${{ secrets.ftp_server }}
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          port: ${{ secrets.port }}
+          local-dir: ./dist/
+          server-dir: ${{ secrets.path }}
