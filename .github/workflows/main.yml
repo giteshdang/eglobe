@@ -23,7 +23,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: dist-folder
-          path: ./dist/
+          path: ./build/
   deploy:
     name: Deploy
     needs: build
