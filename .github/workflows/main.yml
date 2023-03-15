@@ -43,5 +43,5 @@ jobs:
           username: eglobe@e-gconsulting.com
           password: eglobe@e-gconsulting.com
           port: 21
-          local-dir: ./dist/
+          local-dir: ./build/
           server-dir: /public_html
