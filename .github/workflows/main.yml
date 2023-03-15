@@ -16,9 +16,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Install dependencies
-        run: yarn
+        run: npm i
       - name: Build dependencies
-        run: yarn build
+        run: npm run build
       - name: Archive development artifact
         uses: actions/upload-artifact@v3
         with:
