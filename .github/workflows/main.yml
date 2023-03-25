@@ -41,7 +41,7 @@ jobs:
         with: 
           server: ftp.e-gconsulting.com
           username: eglobe@e-gconsulting.com
-          password: eglobe@e-gconsulting.com
+          password: eglobe1234
           port: 21
           local-dir: ./build/
-          server-dir: /public_html/
+          server-dir: /
